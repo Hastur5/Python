@@ -7,3 +7,13 @@ elif n < 0:
 else:   
     print("n is zero")
 
+countries = ['Mexico', 'United States', 'India', 'Brazil']
+
+m = input('Introduce tu país: ')
+
+title_name = m.title()
+
+if title_name in countries:
+    print('Acertaste un país')
+else:
+    print("Lo siento")
