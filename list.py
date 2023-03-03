@@ -1,8 +1,3 @@
-coordinateX = 10.0
-coordinateY = 20.0
-
-coordinate = (10.0, 20.0)
-
 # Mutables: son objetos que pueden cambiar su valor.
 # Crear Lista = array
 
