@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Línea del Tiempo Interactiva</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="timeline">
+        <div class="event" onclick="showDetails('event1')">
+            2020: Evento 1
+            <div class="details" id="event1">Detalles del Evento 1</div>
+        </div>
+        <div class="event" onclick="showDetails('event2')">
+            2021: Evento 2
+            <div class="details" id="event2">Detalles del Evento 2</div>
+        </div>
+        <!-- Añade más eventos según lo necesites -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

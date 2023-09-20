@@ -1,0 +1,19 @@
+.timeline {
+    width: 300px;
+    border-left: 2px solid black;
+    margin: 50px;
+    position: relative;
+}
+
+.event {
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+.details {
+    display: none;
+    background-color: #f1f1f1;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
